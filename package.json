@@ -10,14 +10,14 @@
 		"type": "interface",
 		"path": "dist/index.js",
 		"source": "src/index.js",
-		"host": "^9.0.0-rc.85",
+		"host": "^9.0.0-rc.86",
 		"hidden": false
 	},
 	"scripts": {
 		"build": "directus-extension build"
 	},
 	"devDependencies": {
-		"@directus/extension-sdk": "9.0.0-rc.85",
+		"@directus/extension-sdk": "9.0.0-rc.86",
 		"lodash": "^4.17.21",
 		"sass": "^1.35.2"
 	},
