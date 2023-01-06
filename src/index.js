@@ -1,13 +1,13 @@
-import InterfaceMap from "./interface.vue";
+import InterfaceComponent from './interface.vue';
 
 export default {
-  id: "map",
-  name: "Map",
-  description: "Map interface",
-  icon: "place",
-  component: InterfaceMap,
-  types: ["json"],
-  options: [
+	id: 'custom-map',
+	name: 'Custom Map',
+	icon: 'place',
+	description: 'Custom map interface',
+	component: InterfaceComponent,
+	types: ['json'],
+	options: [
     {
       field: "height",
       name: "Height (400px)",
